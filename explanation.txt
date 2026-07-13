@@ -1,0 +1,22 @@
+
+
+* Managing task data and keeping the UI updated: 
+  I used a JavaScript array to store all tasks and created a `renderTasks()` function to refresh the task list whenever a task was added, completed, deleted, or filtered.
+
+*  Keeping tasks saved after refreshing the page: 
+  I used `localStorage` to store tasks as JSON data and loaded them when the application starts, so tasks are not lost after a page refresh.
+
+*  Implementing task filtering: 
+  I used JavaScript's `filter()` method to display All, Active, and Done tasks without creating separate arrays or changing the original task data.
+
+*  Updating task counters dynamically: 
+  I created a counter update function that automatically changes the total and pending task counts whenever tasks are added, completed, or removed.
+
+*  Improving the user interface design: 
+  I redesigned the application using a glassmorphism theme, gradient background, priority badges, responsive layout, and hover effects for a better user experience.
+
+*  Adding extra functionality: 
+  I implemented a  Clear Completed  button that allows users to remove all completed tasks instantly with one click.
+
+*  Keeping the code organized: 
+  I separated HTML, CSS, and JavaScript files to make the project easier to understand, maintain, and improve.
